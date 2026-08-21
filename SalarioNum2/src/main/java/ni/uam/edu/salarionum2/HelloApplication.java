@@ -67,7 +67,6 @@ public class HelloApplication extends Application {
         contenedorAgregar.setSpacing(15);
         contenedorAgregar.getChildren().addAll(tfSalario, btnAgregar);
 
-
         //tercera parte, hacer la logica de los botones
 
         btnComenzar.setOnAction(event -> {
